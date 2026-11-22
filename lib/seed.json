@@ -1,0 +1,1229 @@
+[
+  {
+    "id": "p01",
+    "candidate": "Omar Haddad",
+    "role": "Quantity Surveyor",
+    "client": "Meridian Build Group",
+    "sector": "Construction",
+    "salaryAED": 24000,
+    "feeAED": 43200,
+    "daysIn": 74,
+    "checkins": [
+      {
+        "id": "c1",
+        "side": "candidate",
+        "milestone": 30,
+        "day": 31,
+        "delay": 1,
+        "text": "Settling in well. The site office is in Dubai South so the commute from Sharjah is long but manageable. Team is helpful.",
+        "analysis": {
+          "risk": 22,
+          "sentiment": 0.5,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "Team is helpful"
+            }
+          ],
+          "confidence": 0.7,
+          "summary": "Positive start; the commute is a minor friction."
+        }
+      },
+      {
+        "id": "c2",
+        "side": "client",
+        "milestone": 30,
+        "day": 33,
+        "delay": 3,
+        "text": "Good technical fit, picks things up fast. No concerns.",
+        "analysis": {
+          "risk": 10,
+          "sentiment": 0.7,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "picks things up fast"
+            }
+          ],
+          "confidence": 0.8,
+          "summary": "Client is happy with technical fit."
+        }
+      },
+      {
+        "id": "c3",
+        "side": "candidate",
+        "milestone": 60,
+        "day": 64,
+        "delay": 4,
+        "text": "Fine overall. Been staying till 9pm most days on the tender, and a recruiter from Abu Dhabi called me last week. Just curious about the market, nothing serious.",
+        "analysis": {
+          "risk": 76,
+          "sentiment": -0.1,
+          "signals": [
+            {
+              "tag": "workload",
+              "evidence_quote": "staying till 9pm most days"
+            },
+            {
+              "tag": "pay_concern",
+              "evidence_quote": "Just curious about the market"
+            }
+          ],
+          "confidence": 0.72,
+          "summary": "Overtime is building and the candidate is quietly entertaining outside conversations."
+        }
+      },
+      {
+        "id": "c4",
+        "side": "client",
+        "milestone": 60,
+        "day": 66,
+        "delay": 6,
+        "text": "No issues to report. He has been a bit quiet in team meetings lately.",
+        "analysis": {
+          "risk": 38,
+          "sentiment": 0,
+          "signals": [
+            {
+              "tag": "slow_vague",
+              "evidence_quote": "No issues to report"
+            }
+          ],
+          "confidence": 0.5,
+          "summary": "Client sees no problem, but notes reduced engagement and replied late."
+        }
+      }
+    ],
+    "next_action": "Call Omar before day 90. Ask about the tender workload and whether his package still feels right; let him raise the Abu Dhabi call. Then brief Meridian on the overtime, with his consent.",
+    "draft_message": "Hi Omar, hope the tender is going well. I'm checking in properly, not just ticking a box. Do you have 10 minutes this week? I'd like to hear how the workload feels and whether anything about the role needs adjusting. Happy to speak to Meridian for you if so."
+  },
+  {
+    "id": "p02",
+    "candidate": "Priya Nair",
+    "role": "Project Planner",
+    "client": "Gulf Horizon Contracting",
+    "sector": "Construction",
+    "salaryAED": 17500,
+    "feeAED": 31500,
+    "daysIn": 112,
+    "checkins": [
+      {
+        "id": "c5",
+        "side": "candidate",
+        "milestone": 30,
+        "day": 31,
+        "delay": 1,
+        "text": "Happy with the role. Waiting on my labour card, should be done this week.",
+        "analysis": {
+          "risk": 24,
+          "sentiment": 0.3,
+          "signals": [
+            {
+              "tag": "pay_concern",
+              "evidence_quote": "Waiting on my labour card"
+            }
+          ],
+          "confidence": 0.6,
+          "summary": "Positive, with one admin item pending."
+        }
+      },
+      {
+        "id": "c6",
+        "side": "client",
+        "milestone": 30,
+        "day": 30,
+        "delay": 0,
+        "text": "Strong planner, great with Primavera.",
+        "analysis": {
+          "risk": 8,
+          "sentiment": 0.8,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "great with Primavera"
+            }
+          ],
+          "confidence": 0.8,
+          "summary": "Client very positive."
+        }
+      },
+      {
+        "id": "c7",
+        "side": "candidate",
+        "milestone": 60,
+        "day": 66,
+        "delay": 6,
+        "text": "Going well. The Primavera schedules are keeping me busy, a bit more than the job description said.",
+        "analysis": {
+          "risk": 40,
+          "sentiment": 0,
+          "signals": [
+            {
+              "tag": "role_mismatch",
+              "evidence_quote": "a bit more than the job description said"
+            }
+          ],
+          "confidence": 0.62,
+          "summary": "Scope is wider than agreed; early role-mismatch signal."
+        }
+      },
+      {
+        "id": "c8",
+        "side": "client",
+        "milestone": 60,
+        "day": 62,
+        "delay": 2,
+        "text": "Happy with Priya. No concerns.",
+        "analysis": {
+          "risk": 14,
+          "sentiment": 0.6,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "Happy with Priya"
+            }
+          ],
+          "confidence": 0.7,
+          "summary": "Client content."
+        }
+      },
+      {
+        "id": "c9",
+        "side": "candidate",
+        "milestone": 90,
+        "day": 93,
+        "delay": 3,
+        "text": "Doing fine, the project got extended so hours are long but the site team is great.",
+        "analysis": {
+          "risk": 46,
+          "sentiment": 0.1,
+          "signals": [
+            {
+              "tag": "workload",
+              "evidence_quote": "hours are long"
+            },
+            {
+              "tag": "positive",
+              "evidence_quote": "the site team is great"
+            }
+          ],
+          "confidence": 0.62,
+          "summary": "Long hours from a project extension, offset by a good team."
+        }
+      },
+      {
+        "id": "c10",
+        "side": "client",
+        "milestone": 90,
+        "day": 95,
+        "delay": 5,
+        "text": "No concerns, project has extended scope.",
+        "analysis": {
+          "risk": 28,
+          "sentiment": 0.1,
+          "signals": [
+            {
+              "tag": "slow_vague",
+              "evidence_quote": "No concerns"
+            }
+          ],
+          "confidence": 0.55,
+          "summary": "Client confirms the scope extension."
+        }
+      }
+    ],
+    "next_action": "A light touch is enough: ask Priya whether the extended scope comes with recognition, and nudge Gulf Horizon on a scope or title review.",
+    "draft_message": "Hi Priya, thanks for the update. Sounds like the project extension has added to your plate. Has the scope been discussed with your manager? Happy to help raise it with Gulf Horizon if useful."
+  },
+  {
+    "id": "p03",
+    "candidate": "Layla Mansour",
+    "role": "Senior Financial Analyst",
+    "client": "Falcon Capital Partners",
+    "sector": "Finance",
+    "salaryAED": 31000,
+    "feeAED": 55800,
+    "daysIn": 99,
+    "checkins": [
+      {
+        "id": "c11",
+        "side": "candidate",
+        "milestone": 30,
+        "day": 32,
+        "delay": 2,
+        "text": "Great start! Lots to learn at Falcon but the team has been really welcoming. Excited about the portfolio coverage.",
+        "analysis": {
+          "risk": 14,
+          "sentiment": 0.7,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "really welcoming"
+            }
+          ],
+          "confidence": 0.75,
+          "summary": "Enthusiastic and engaged."
+        }
+      },
+      {
+        "id": "c12",
+        "side": "client",
+        "milestone": 30,
+        "day": 34,
+        "delay": 4,
+        "text": "Layla is ramping up well and the fund managers like her models.",
+        "analysis": {
+          "risk": 8,
+          "sentiment": 0.7,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "ramping up well"
+            }
+          ],
+          "confidence": 0.75,
+          "summary": "Client very positive."
+        }
+      },
+      {
+        "id": "c13",
+        "side": "candidate",
+        "milestone": 60,
+        "day": 66,
+        "delay": 6,
+        "text": "Going ok. My manager changed the reporting line last week so I now report into the new VP. Still figuring out priorities.",
+        "analysis": {
+          "risk": 54,
+          "sentiment": -0.2,
+          "signals": [
+            {
+              "tag": "manager_friction",
+              "evidence_quote": "My manager changed the reporting line last week"
+            },
+            {
+              "tag": "role_mismatch",
+              "evidence_quote": "Still figuring out priorities"
+            }
+          ],
+          "confidence": 0.66,
+          "summary": "Reporting line changed and priorities are unclear; reply is shorter and cooler than day 30."
+        }
+      },
+      {
+        "id": "c14",
+        "side": "client",
+        "milestone": 60,
+        "day": 62,
+        "delay": 2,
+        "text": "Restructure is bedding in. Layla is adjusting, we are watching her workload.",
+        "analysis": {
+          "risk": 40,
+          "sentiment": 0,
+          "signals": [
+            {
+              "tag": "manager_friction",
+              "evidence_quote": "Restructure is bedding in"
+            },
+            {
+              "tag": "workload",
+              "evidence_quote": "we are watching her workload"
+            }
+          ],
+          "confidence": 0.6,
+          "summary": "Client acknowledges the restructure and hints at pressure on workload."
+        }
+      },
+      {
+        "id": "c15",
+        "side": "client",
+        "milestone": 90,
+        "day": 94,
+        "delay": 4,
+        "text": "Fine.",
+        "analysis": {
+          "risk": 60,
+          "sentiment": -0.1,
+          "signals": [
+            {
+              "tag": "slow_vague",
+              "evidence_quote": "Fine."
+            }
+          ],
+          "confidence": 0.5,
+          "summary": "A one-word client reply, much cooler than day 30."
+        }
+      },
+      {
+        "id": "c16",
+        "side": "candidate",
+        "milestone": 90,
+        "day": 97,
+        "delay": null,
+        "text": null,
+        "analysis": {
+          "risk": 78,
+          "sentiment": -0.3,
+          "confidence": 0.6,
+          "summary": "Candidate has not replied to the day-90 check-in or two follow-ups.",
+          "signals": [
+            {
+              "tag": "silence",
+              "evidence_quote": "No reply after two follow-ups"
+            }
+          ]
+        }
+      }
+    ],
+    "next_action": "Call Layla today, by phone rather than message. Replies have shrunk from enthusiastic to silent since the reporting-line change. Listen first; then, with her consent, speak to Falcon's new VP about clarity of role.",
+    "draft_message": "Hi Layla, hope you're well. I know there's been a lot of change at Falcon recently. No need to write anything long: can I call you for 10 minutes this week, whenever suits you? Just want to make sure you have what you need."
+  },
+  {
+    "id": "p04",
+    "candidate": "Daniel Okafor",
+    "role": "Credit Risk Manager",
+    "client": "Al Noor Finance",
+    "sector": "Finance",
+    "salaryAED": 28000,
+    "feeAED": 50400,
+    "daysIn": 41,
+    "checkins": [
+      {
+        "id": "c17",
+        "side": "candidate",
+        "milestone": 30,
+        "day": 30,
+        "delay": 0,
+        "text": "Really enjoying it. The credit committee is demanding but fair and my manager gives good feedback.",
+        "analysis": {
+          "risk": 12,
+          "sentiment": 0.7,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "Really enjoying it"
+            }
+          ],
+          "confidence": 0.75,
+          "summary": "Positive, engaged and well supported."
+        }
+      },
+      {
+        "id": "c18",
+        "side": "client",
+        "milestone": 30,
+        "day": 33,
+        "delay": 3,
+        "text": "Excellent hire. Already contributing to the Q4 pipeline review.",
+        "analysis": {
+          "risk": 6,
+          "sentiment": 0.9,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "Excellent hire"
+            }
+          ],
+          "confidence": 0.8,
+          "summary": "Client delighted."
+        }
+      }
+    ],
+    "next_action": "No call needed. Keep the day-60 check-in on the calendar.",
+    "draft_message": "Hi Daniel, great to hear it's going well. We'll check in again around day 60. Shout if anything comes up before then."
+  },
+  {
+    "id": "p05",
+    "candidate": "Reem Al Suwaidi",
+    "role": "Boutique Manager",
+    "client": "Aurelia Jewellers",
+    "sector": "Jewellery retail",
+    "salaryAED": 21000,
+    "feeAED": 37800,
+    "daysIn": 131,
+    "checkins": [
+      {
+        "id": "c19",
+        "side": "candidate",
+        "milestone": 30,
+        "day": 31,
+        "delay": 1,
+        "text": "Settling in nicely, the boutique team is lovely and the clientele is great.",
+        "analysis": {
+          "risk": 8,
+          "sentiment": 0.8,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "the boutique team is lovely"
+            }
+          ],
+          "confidence": 0.75,
+          "summary": "Very positive start."
+        }
+      },
+      {
+        "id": "c20",
+        "side": "client",
+        "milestone": 30,
+        "day": 32,
+        "delay": 2,
+        "text": "Very positive start, she has great product knowledge.",
+        "analysis": {
+          "risk": 6,
+          "sentiment": 0.8,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "great product knowledge"
+            }
+          ],
+          "confidence": 0.8,
+          "summary": "Client very positive."
+        }
+      },
+      {
+        "id": "c21",
+        "side": "candidate",
+        "milestone": 60,
+        "day": 62,
+        "delay": 2,
+        "text": "Loving it. Sales are up and the owner trusts me with the VIP clients.",
+        "analysis": {
+          "risk": 6,
+          "sentiment": 0.9,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "Loving it"
+            }
+          ],
+          "confidence": 0.8,
+          "summary": "Thriving, and trusted by the owner."
+        }
+      },
+      {
+        "id": "c22",
+        "side": "client",
+        "milestone": 60,
+        "day": 61,
+        "delay": 1,
+        "text": "Exceeding targets, customers ask for her by name.",
+        "analysis": {
+          "risk": 4,
+          "sentiment": 0.9,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "Exceeding targets"
+            }
+          ],
+          "confidence": 0.85,
+          "summary": "Client says she is exceeding targets."
+        }
+      },
+      {
+        "id": "c23",
+        "side": "candidate",
+        "milestone": 90,
+        "day": 91,
+        "delay": 1,
+        "text": "Honestly the best move I have made. We hit 118% of target last month.",
+        "analysis": {
+          "risk": 4,
+          "sentiment": 0.95,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "the best move I have made"
+            }
+          ],
+          "confidence": 0.85,
+          "summary": "Strongly positive, 118% of target."
+        }
+      },
+      {
+        "id": "c24",
+        "side": "client",
+        "milestone": 90,
+        "day": 93,
+        "delay": 3,
+        "text": "Exceeding targets again. We would use the same recruiter again.",
+        "analysis": {
+          "risk": 3,
+          "sentiment": 0.95,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "Exceeding targets again"
+            }
+          ],
+          "confidence": 0.85,
+          "summary": "Client delighted, offers repeat business."
+        }
+      }
+    ],
+    "next_action": "No retention action. Consider a thank-you note and ask Aurelia about other open roles.",
+    "draft_message": "Hi Reem, so glad it's going this well. Congratulations on the 118%! Keep us posted, and thank you for the update."
+  },
+  {
+    "id": "p06",
+    "candidate": "Marco Bellini",
+    "role": "Senior Sales Consultant",
+    "client": "Dune & Gold",
+    "sector": "Jewellery retail",
+    "salaryAED": 15000,
+    "feeAED": 27000,
+    "daysIn": 58,
+    "checkins": [
+      {
+        "id": "c25",
+        "side": "candidate",
+        "milestone": 30,
+        "day": 32,
+        "delay": 2,
+        "text": "Good team but I am still not clear how commission is calculated. Was told 2% on sales above target, finance says it starts after month three.",
+        "analysis": {
+          "risk": 58,
+          "sentiment": -0.3,
+          "signals": [
+            {
+              "tag": "pay_concern",
+              "evidence_quote": "not clear how commission is calculated"
+            }
+          ],
+          "confidence": 0.78,
+          "summary": "Commission terms differ between what was promised and what finance says."
+        }
+      },
+      {
+        "id": "c26",
+        "side": "client",
+        "milestone": 30,
+        "day": 31,
+        "delay": 1,
+        "text": "Marco is charming with clients. Footfall has been slow this month though.",
+        "analysis": {
+          "risk": 26,
+          "sentiment": 0.3,
+          "signals": [],
+          "confidence": 0.6,
+          "summary": "Client likes him; slow footfall may hurt his commission."
+        }
+      }
+    ],
+    "next_action": "Call Marco this week and get the commission offer letter in front of both of you. Ask Dune & Gold finance to confirm the start date in writing before day 60.",
+    "draft_message": "Hi Marco, thanks for being open about the commission. Let's get it clear in writing. Can you send me the offer letter, and I'll speak to Dune & Gold's finance team this week?"
+  },
+  {
+    "id": "p07",
+    "candidate": "Sana Qureshi",
+    "role": "Category Manager",
+    "client": "Cartwheel.ae",
+    "sector": "E-commerce",
+    "salaryAED": 29000,
+    "feeAED": 52200,
+    "daysIn": 88,
+    "checkins": [
+      {
+        "id": "c27",
+        "side": "candidate",
+        "milestone": 30,
+        "day": 32,
+        "delay": 2,
+        "text": "Excited! Lots of ownership of the electronics category.",
+        "analysis": {
+          "risk": 10,
+          "sentiment": 0.8,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "Excited"
+            }
+          ],
+          "confidence": 0.7,
+          "summary": "Enthusiastic."
+        }
+      },
+      {
+        "id": "c28",
+        "side": "client",
+        "milestone": 30,
+        "day": 32,
+        "delay": 2,
+        "text": "Great energy and a quick learner.",
+        "analysis": {
+          "risk": 8,
+          "sentiment": 0.8,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "Great energy"
+            }
+          ],
+          "confidence": 0.7,
+          "summary": "Client positive."
+        }
+      },
+      {
+        "id": "c29",
+        "side": "candidate",
+        "milestone": 60,
+        "day": 64,
+        "delay": 4,
+        "text": "It's okay. I'm doing a lot of supplier chasing and warehouse coordination, less category strategy than we discussed in the interview.",
+        "analysis": {
+          "risk": 56,
+          "sentiment": -0.2,
+          "signals": [
+            {
+              "tag": "role_mismatch",
+              "evidence_quote": "less category strategy than we discussed in the interview"
+            }
+          ],
+          "confidence": 0.7,
+          "summary": "Day-to-day is operational, not strategic as discussed; classic role-mismatch cue."
+        }
+      },
+      {
+        "id": "c30",
+        "side": "client",
+        "milestone": 60,
+        "day": 63,
+        "delay": 3,
+        "text": "Sana is doing well, though she seems less engaged in the planning sessions.",
+        "analysis": {
+          "risk": 36,
+          "sentiment": 0,
+          "signals": [
+            {
+              "tag": "slow_vague",
+              "evidence_quote": "seems less engaged in the planning sessions"
+            }
+          ],
+          "confidence": 0.55,
+          "summary": "Client notices reduced engagement."
+        }
+      }
+    ],
+    "next_action": "Ask Sana what a good week of strategic work would look like, then raise the gap with Cartwheel before her day-90 check-in.",
+    "draft_message": "Hi Sana, thanks for being honest about the balance between ops and strategy. I'd like to help close that gap. Can we speak this week? I can also raise it with Cartwheel if you'd like."
+  },
+  {
+    "id": "p08",
+    "candidate": "Karim Fahmy",
+    "role": "Performance Marketing Lead",
+    "client": "Basket & Co",
+    "sector": "E-commerce",
+    "salaryAED": 26000,
+    "feeAED": 46800,
+    "daysIn": 36,
+    "checkins": [
+      {
+        "id": "c31",
+        "side": "candidate",
+        "milestone": 30,
+        "day": 33,
+        "delay": 3,
+        "text": "Good. Getting used to the pace, a bit more reporting than I expected but fine.",
+        "analysis": {
+          "risk": 24,
+          "sentiment": 0.3,
+          "signals": [
+            {
+              "tag": "workload",
+              "evidence_quote": "a bit more reporting than I expected"
+            }
+          ],
+          "confidence": 0.6,
+          "summary": "Fine start; mild note on reporting overhead."
+        }
+      },
+      {
+        "id": "c32",
+        "side": "client",
+        "milestone": 30,
+        "day": 32,
+        "delay": 2,
+        "text": "Solid start. Dashboards were delivered ahead of plan.",
+        "analysis": {
+          "risk": 8,
+          "sentiment": 0.8,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "Solid start"
+            }
+          ],
+          "confidence": 0.8,
+          "summary": "Client positive."
+        }
+      }
+    ],
+    "next_action": "No call needed yet. Mention the reporting load at the day-60 check-in.",
+    "draft_message": "Hi Karim, thanks for the update. Glad the start is going well. We'll catch up around day 60."
+  },
+  {
+    "id": "p09",
+    "candidate": "Elena Petrova",
+    "role": "F&B Manager",
+    "client": "Palmora Hotels",
+    "sector": "Hospitality",
+    "salaryAED": 19000,
+    "feeAED": 34200,
+    "daysIn": 83,
+    "checkins": [
+      {
+        "id": "c33",
+        "side": "candidate",
+        "milestone": 30,
+        "day": 30,
+        "delay": 0,
+        "text": "Good so far. Property is beautiful. Still waiting for the housing allowance to be confirmed in writing, HR said next week.",
+        "analysis": {
+          "risk": 48,
+          "sentiment": 0.1,
+          "signals": [
+            {
+              "tag": "pay_concern",
+              "evidence_quote": "Still waiting for the housing allowance to be confirmed in writing"
+            }
+          ],
+          "confidence": 0.7,
+          "summary": "Positive, but the housing allowance is still unconfirmed."
+        }
+      },
+      {
+        "id": "c34",
+        "side": "client",
+        "milestone": 30,
+        "day": 31,
+        "delay": 1,
+        "text": "Elena has taken over the outlets well.",
+        "analysis": {
+          "risk": 12,
+          "sentiment": 0.6,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "taken over the outlets well"
+            }
+          ],
+          "confidence": 0.7,
+          "summary": "Client positive."
+        }
+      },
+      {
+        "id": "c35",
+        "side": "candidate",
+        "milestone": 60,
+        "day": 65,
+        "delay": 5,
+        "text": "Housing allowance still not sorted so I am paying from my own pocket for now. Also my visa transfer is taking forever, I cannot travel home for my sister's wedding.",
+        "analysis": {
+          "risk": 84,
+          "sentiment": -0.5,
+          "signals": [
+            {
+              "tag": "pay_concern",
+              "evidence_quote": "Housing allowance still not sorted"
+            },
+            {
+              "tag": "pay_concern",
+              "evidence_quote": "my visa transfer is taking forever"
+            }
+          ],
+          "confidence": 0.82,
+          "summary": "Same housing issue two months on, plus a stalled visa transfer. Strong frustration."
+        }
+      },
+      {
+        "id": "c36",
+        "side": "client",
+        "milestone": 60,
+        "day": 63,
+        "delay": 3,
+        "text": "We are monitoring. Operations are busy with the season and HR admin is a bit behind but she is performing.",
+        "analysis": {
+          "risk": 46,
+          "sentiment": -0.1,
+          "signals": [
+            {
+              "tag": "slow_vague",
+              "evidence_quote": "We are monitoring"
+            },
+            {
+              "tag": "pay_concern",
+              "evidence_quote": "HR admin is a bit behind"
+            }
+          ],
+          "confidence": 0.6,
+          "summary": "Client admits HR admin is behind but treats it as low priority."
+        }
+      }
+    ],
+    "next_action": "Call Elena today. Her allowance and visa have been open for 60 days. Escalate both to Palmora's HR director this week and give Elena a firm date.",
+    "draft_message": "Hi Elena, thank you for being open about this. It shouldn't have dragged on. I'm escalating the housing allowance and visa transfer with Palmora's HR today and will come back to you with a date by Thursday. Can I call you this afternoon?"
+  },
+  {
+    "id": "p10",
+    "candidate": "Hassan Rahimi",
+    "role": "Front Office Supervisor",
+    "client": "Marina Crest Hotel",
+    "sector": "Hospitality",
+    "salaryAED": 9500,
+    "feeAED": 17100,
+    "daysIn": 148,
+    "checkins": [
+      {
+        "id": "c37",
+        "side": "candidate",
+        "milestone": 30,
+        "day": 32,
+        "delay": 2,
+        "text": "Fine. Split shifts take getting used to.",
+        "analysis": {
+          "risk": 28,
+          "sentiment": 0,
+          "signals": [
+            {
+              "tag": "workload",
+              "evidence_quote": "Split shifts take getting used to"
+            }
+          ],
+          "confidence": 0.6,
+          "summary": "Neutral; shift pattern is an adjustment."
+        }
+      },
+      {
+        "id": "c38",
+        "side": "client",
+        "milestone": 30,
+        "day": 31,
+        "delay": 1,
+        "text": "Dependable and always on time.",
+        "analysis": {
+          "risk": 8,
+          "sentiment": 0.7,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "Dependable"
+            }
+          ],
+          "confidence": 0.7,
+          "summary": "Client positive."
+        }
+      },
+      {
+        "id": "c39",
+        "side": "candidate",
+        "milestone": 60,
+        "day": 63,
+        "delay": 3,
+        "text": "Split shifts again this month and two double shifts for the F1 weekend, tired but ok.",
+        "analysis": {
+          "risk": 42,
+          "sentiment": -0.1,
+          "signals": [
+            {
+              "tag": "workload",
+              "evidence_quote": "two double shifts"
+            }
+          ],
+          "confidence": 0.68,
+          "summary": "Heavy rota during event weekends."
+        }
+      },
+      {
+        "id": "c40",
+        "side": "client",
+        "milestone": 60,
+        "day": 62,
+        "delay": 2,
+        "text": "Hassan covered the event well, we owe him time off.",
+        "analysis": {
+          "risk": 18,
+          "sentiment": 0.5,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "covered the event well"
+            }
+          ],
+          "confidence": 0.7,
+          "summary": "Client appreciative and aware of the load."
+        }
+      },
+      {
+        "id": "c41",
+        "side": "candidate",
+        "milestone": 90,
+        "day": 93,
+        "delay": 3,
+        "text": "Still on split shifts. Asked about moving to a fixed morning rota, awaiting reply.",
+        "analysis": {
+          "risk": 56,
+          "sentiment": -0.2,
+          "signals": [
+            {
+              "tag": "workload",
+              "evidence_quote": "Still on split shifts"
+            }
+          ],
+          "confidence": 0.7,
+          "summary": "Has asked for a rota change; an unanswered request is a retention risk."
+        }
+      },
+      {
+        "id": "c42",
+        "side": "client",
+        "milestone": 90,
+        "day": 92,
+        "delay": 2,
+        "text": "Occupancy has been high, rota requests will be reviewed after season.",
+        "analysis": {
+          "risk": 32,
+          "sentiment": 0,
+          "signals": [
+            {
+              "tag": "slow_vague",
+              "evidence_quote": "will be reviewed after season"
+            }
+          ],
+          "confidence": 0.6,
+          "summary": "Client defers the rota request."
+        }
+      }
+    ],
+    "next_action": "Ask Marina Crest for a date on Hassan's rota request, even a provisional one. A clear answer matters more than the answer itself.",
+    "draft_message": "Hi Hassan, thanks for flagging the rota. I've asked Marina Crest for a firm date on your request and will let you know what they say. Hang in there, and thanks for covering the busy period."
+  },
+  {
+    "id": "p11",
+    "candidate": "Aisha Khalid",
+    "role": "Senior Backend Engineer",
+    "client": "Nimbus Pay",
+    "sector": "Tech",
+    "salaryAED": 32000,
+    "feeAED": 57600,
+    "daysIn": 67,
+    "checkins": [
+      {
+        "id": "c43",
+        "side": "candidate",
+        "milestone": 30,
+        "day": 30,
+        "delay": 0,
+        "text": "Team is great, just got my Emirates ID and the onboarding was smooth. Interesting problems already.",
+        "analysis": {
+          "risk": 6,
+          "sentiment": 0.9,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "Team is great"
+            }
+          ],
+          "confidence": 0.85,
+          "summary": "Very happy; visa and onboarding done."
+        }
+      },
+      {
+        "id": "c44",
+        "side": "client",
+        "milestone": 30,
+        "day": 31,
+        "delay": 1,
+        "text": "Shipping code in week two. Strong cultural fit.",
+        "analysis": {
+          "risk": 4,
+          "sentiment": 0.9,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "Strong cultural fit"
+            }
+          ],
+          "confidence": 0.85,
+          "summary": "Client delighted."
+        }
+      },
+      {
+        "id": "c45",
+        "side": "candidate",
+        "milestone": 60,
+        "day": 63,
+        "delay": 3,
+        "text": "Really happy. Got my first promotion-track conversation scheduled and the tech stack is exactly what I wanted.",
+        "analysis": {
+          "risk": 5,
+          "sentiment": 0.9,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "Really happy"
+            }
+          ],
+          "confidence": 0.85,
+          "summary": "Thriving, with growth plans underway."
+        }
+      },
+      {
+        "id": "c46",
+        "side": "client",
+        "milestone": 60,
+        "day": 62,
+        "delay": 2,
+        "text": "Top performer in the squad already.",
+        "analysis": {
+          "risk": 3,
+          "sentiment": 0.95,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "Top performer"
+            }
+          ],
+          "confidence": 0.85,
+          "summary": "Client says top performer."
+        }
+      }
+    ],
+    "next_action": "No retention action. Candidate and client are both thriving; consider asking for a referral.",
+    "draft_message": "Hi Aisha, so glad to hear it. Congratulations on the promotion-track chat! If you know anyone like you who'd enjoy a move, send them my way."
+  },
+  {
+    "id": "p12",
+    "candidate": "Tomas Reyes",
+    "role": "DevOps Engineer",
+    "client": "Oasis Logistics Tech",
+    "sector": "Tech",
+    "salaryAED": 25000,
+    "feeAED": 45000,
+    "daysIn": 171,
+    "checkins": [
+      {
+        "id": "c47",
+        "side": "candidate",
+        "milestone": 30,
+        "day": 31,
+        "delay": 1,
+        "text": "Good, Oasis has a strong engineering culture.",
+        "analysis": {
+          "risk": 8,
+          "sentiment": 0.7,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "strong engineering culture"
+            }
+          ],
+          "confidence": 0.7,
+          "summary": "Positive."
+        }
+      },
+      {
+        "id": "c48",
+        "side": "client",
+        "milestone": 30,
+        "day": 31,
+        "delay": 1,
+        "text": "Great hire, very reliable.",
+        "analysis": {
+          "risk": 6,
+          "sentiment": 0.8,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "Great hire"
+            }
+          ],
+          "confidence": 0.75,
+          "summary": "Client positive."
+        }
+      },
+      {
+        "id": "c49",
+        "side": "candidate",
+        "milestone": 60,
+        "day": 62,
+        "delay": 2,
+        "text": "Happy overall, the on-call rotation is a lot but it's compensated.",
+        "analysis": {
+          "risk": 20,
+          "sentiment": 0.4,
+          "signals": [
+            {
+              "tag": "workload",
+              "evidence_quote": "the on-call rotation is a lot"
+            }
+          ],
+          "confidence": 0.7,
+          "summary": "On-call load noted but compensated."
+        }
+      },
+      {
+        "id": "c50",
+        "side": "client",
+        "milestone": 60,
+        "day": 61,
+        "delay": 1,
+        "text": "Reliable and calm under pressure.",
+        "analysis": {
+          "risk": 6,
+          "sentiment": 0.8,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "Reliable and calm under pressure"
+            }
+          ],
+          "confidence": 0.75,
+          "summary": "Client positive."
+        }
+      },
+      {
+        "id": "c51",
+        "side": "candidate",
+        "milestone": 90,
+        "day": 92,
+        "delay": 2,
+        "text": "All good. Starting to lead the infra migration.",
+        "analysis": {
+          "risk": 8,
+          "sentiment": 0.7,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "lead the infra migration"
+            }
+          ],
+          "confidence": 0.7,
+          "summary": "Growing into a lead role."
+        }
+      },
+      {
+        "id": "c52",
+        "side": "client",
+        "milestone": 90,
+        "day": 91,
+        "delay": 1,
+        "text": "Considering him for a lead role. Very happy.",
+        "analysis": {
+          "risk": 4,
+          "sentiment": 0.9,
+          "signals": [
+            {
+              "tag": "positive",
+              "evidence_quote": "Very happy"
+            }
+          ],
+          "confidence": 0.8,
+          "summary": "Client planning promotion."
+        }
+      }
+    ],
+    "next_action": "Nothing to do. The guarantee window closes in 9 days; send a friendly close-out note.",
+    "draft_message": "Hi Tomas, your guarantee window is nearly done and by all accounts it's gone brilliantly. Thanks for the updates, and good luck with the infra migration!"
+  }
+]
